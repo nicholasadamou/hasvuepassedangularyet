@@ -10,7 +10,7 @@ A simple UI that interacts with the GitHub API to check whether Vue has passed A
 
 ⚠️ To access the demo of 'Has Vue passed Angular yet?' visit this link: ['Has Vue passed Angular yet?' demo](https://hasvuepassedangularyet.surge.sh/).
 
-### ⚠️ Setting up [WebTasks](https://webtask.io) (Required)
+## Setting up [WebTasks](https://webtask.io) (Required)
 
 In order to make the asynchronous calls to the [Github API](https://developer.github.com/v4/), we must set up a server-less end-point that we can use to fetch information against GitHub's API (e.g. [`functions/fetchGithubStars.js`](functions/fetchGithubStars.js)).
 
@@ -38,7 +38,7 @@ Value: <Your-Github-Personal-Access-Token>
 
 To learn more about adding secrets to a WebTask module, read [here](https://webtask.io/docs/editor/secrets).
 
-### Getting Started
+## Getting Started
 
 To run this locally, clone the repository and use Yarn or NPM to install the dependencies (You’ll need Node.js installed).
 
