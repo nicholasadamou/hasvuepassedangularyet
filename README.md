@@ -4,6 +4,12 @@
 
 ![preview](preview.png)
 
+## What is "Has Vue passed Angular yet"?
+
+A simple UI that interacts with the GitHub API to check whether Vue has passed Angular in star-gazers.
+
+⚠️ To access the demo of 'Has Vue passed Angular yet?' visit this link: ['Has Vue passed Angular yet?' demo](https://hasvuepassedangularyet.surge.sh/).
+
 ### ⚠️ Setting up [WebTasks](https://webtask.io) (Required)
 
 In order to make the asynchronous calls to the [Github API](https://developer.github.com/v4/), we must set up a server-less end-point that we can use to fetch information against GitHub's API (e.g. [`functions/fetchGithubStars.js`](functions/fetchGithubStars.js)).
@@ -42,18 +48,14 @@ cd hasvuepassedangularyet
 yarn install
 ```
 
-### Development
+## Building & Running the Web App
 
-Start a dev server on [http://localhost:8080](http://localhost:8080)
+Simply run, `yarn dev`.
 
-```bash
-yarn dev
-```
+## License
 
-### Production
+'Has Vue passed Angular yet?' is © 2018, Nicholas Adamou.
 
-To build for prod, run the following:
+It is free software, and may be redistributed under the terms specified in the [LICENSE] file.
 
-```bash
-yarn build
-```
+[LICENSE]: LICENSE
