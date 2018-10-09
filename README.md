@@ -20,7 +20,7 @@ However, we need to add our GitHub Personal Access Token to the `fetchGithubStar
 
 ```bash
 cd functions/
-wt edit
+node_modules/.bin/wt edit
 ```
 
 This will open the WebTasks Dashboard. Click on the `fetchGithubStars` module in the explorer, then click on the wrench in the upper-left-hand-corner of the editor and select `secrets`. Click `Add Secret` and enter the following information being sure to type the _key_ value correctly:
