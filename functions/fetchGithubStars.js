@@ -35,7 +35,7 @@ module.exports = (ctx, cb) => {
     }
   });
 
-  // Get Vue & React info
+  // Get Vue & Angular info
   github.post('graphql', { query }).then(res => {
     cb(null, res.data);
   });
