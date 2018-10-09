@@ -1,4 +1,4 @@
-# Has Vue passed Angular yet?
+# Has Vue passed Angular yet? [![Build Status](https://travis-ci.org/nicholasadamou/hasvuepassedangularyet.svg?branch=master)](https://travis-ci.org/nicholasadamou/hasvuepassedangularyet)
 
 > Just a fun little site to compare GitHub stars of Vue and Angular
 
