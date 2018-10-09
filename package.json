@@ -1,0 +1,49 @@
+{
+  "name": "hasvuepassedangularyet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "yarn serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "yarn build && node_modules/.bin/surge -p dist -d https://hasvuepassedangularyet.surge.sh",
+    "wt:install": "cd functions && yarn install && node_modules/.bin/wt init && wt create fetchGithubStars",
+    "wt:update": "cd functions && node_modules/.bin/wt update fetchGithubStars fetchGithubStars.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "surge": "^0.20.1",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.16",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.16",
+    "@vue/cli-service": "^3.0.0-beta.16",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
