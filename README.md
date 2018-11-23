@@ -4,6 +4,11 @@
 
 ![preview](preview.png)
 
+![license](https://img.shields.io/apm/l/vim-mode.svg)
+[![DevDependencies](https://img.shields.io/david/dev/nicholasadamou/hasvuepassedangularyet.svg?style=flat-square)](https://david-dm.org/nicholasadamou/hasvuepassedangularyet#info=devDependencies)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nicholasadamou/hasvuepassedangularyet)](https://dependabot.com)
+[![Known Vulnerabilities](https://snyk.io/test/github/nicholasadamou/hasvuepassedangularyet/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nicholasadamou/hasvuepassedangularyet?targetFile=package.json)
+
 ## What is "Has Vue passed Angular yet"?
 
 A simple UI that interacts with the GitHub API to check whether Vue has passed Angular in star-gazers.
