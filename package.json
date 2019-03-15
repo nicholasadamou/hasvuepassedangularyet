@@ -17,14 +17,14 @@
   "dependencies": {
     "axios": "^0.18.0",
     "surge": "^0.20.3",
-    "vue": "^2.6.8",
+    "vue": "^2.6.9",
     "snyk": "^1.136.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.1",
     "@vue/cli-plugin-eslint": "^3.5.1",
     "@vue/cli-service": "^3.5.1",
-    "vue-template-compiler": "^2.6.8"
+    "vue-template-compiler": "^2.6.9"
   },
   "eslintConfig": {
     "root": true,
