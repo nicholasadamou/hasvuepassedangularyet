@@ -18,7 +18,7 @@
     "axios": "^0.18.0",
     "surge": "^0.20.4",
     "vue": "^2.6.10",
-    "snyk": "^1.153.0"
+    "snyk": "^1.154.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",
