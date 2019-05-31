@@ -15,7 +15,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "surge": "^0.21.0",
     "vue": "^2.6.10",
     "snyk": "^1.169.2"
