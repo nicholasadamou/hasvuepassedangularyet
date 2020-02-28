@@ -21,7 +21,7 @@
     "snyk": "^1.297.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.2.2",
+    "@vue/cli-plugin-babel": "^4.2.3",
     "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-service": "^4.2.3",
     "vue-template-compiler": "^2.6.11"
