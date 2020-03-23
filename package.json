@@ -10,15 +10,12 @@
     "deploy": "yarn build && node_modules/.bin/surge -p dist -d https://hasvuepassedangularyet.surge.sh",
     "wt:install": "cd functions && yarn install && node_modules/.bin/wt init && wt create fetchGithubStars",
     "wt:update": "cd functions && node_modules/.bin/wt update fetchGithubStars fetchGithubStars.js",
-    "test": "echo \"Error: no test specified\"",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "exit 0",
   },
   "dependencies": {
     "axios": "^0.19.2",
     "surge": "^0.21.3",
     "vue": "^2.6.11",
-    "snyk": "^1.303.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.3",
@@ -49,6 +46,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "snyk": true
+  ]
 }
