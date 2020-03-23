@@ -10,7 +10,7 @@
     "deploy": "yarn build && node_modules/.bin/surge -p dist -d https://hasvuepassedangularyet.surge.sh",
     "wt:install": "cd functions && yarn install && node_modules/.bin/wt init && wt create fetchGithubStars",
     "wt:update": "cd functions && node_modules/.bin/wt update fetchGithubStars fetchGithubStars.js",
-    "test": "exit 0",
+    "test": "exit 0"
   },
   "dependencies": {
     "axios": "^0.19.2",
