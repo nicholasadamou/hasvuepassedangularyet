@@ -60,7 +60,7 @@ Simply run, `yarn dev`.
 
 ## License
 
-'Has Vue passed Angular yet?' is © 2018, Nicholas Adamou.
+'Has Vue passed Angular yet?' is © Nicholas Adamou.
 
 It is free software, and may be redistributed under the terms specified in the [LICENSE] file.
 
