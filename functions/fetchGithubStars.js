@@ -1,4 +1,3 @@
-// Dependencies
 const axios = require('axios');
 
 // GraphQL query for Github API (https://developer.github.com/v4/)
@@ -19,24 +18,15 @@ const query = `
   }
 `;
 
-module.exports = (ctx, cb) => {
-  // Github access tokens
-  const {
-    GITHUB_TOKEN_1
-  } = ctx.secrets;
-
-  const GITHUB_TOKEN = GITHUB_TOKEN_1;
-
-  // Github GraphQL axios instance
+module.exports = (context, callback) => {
   const github = axios.create({
     baseURL: 'https://api.github.com',
     headers: {
-      'Authorization': `Bearer ${GITHUB_TOKEN}`
+      'Authorization': `Bearer ${context.secrets.GITHUB_API_TOKEN}`
     }
   });
 
-  // Get Vue & Angular info
-  github.post('graphql', { query }).then(res => {
-    cb(null, res.data);
+  github.post('graphql', { query }).then((response) => {
+    callback(null, response.data);
   });
 };
