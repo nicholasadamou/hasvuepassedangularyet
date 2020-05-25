@@ -18,15 +18,15 @@ const query = `
   }
 `;
 
-module.exports = (context, callback) => {
+module.exports = (ctx, cb) => {
   const github = axios.create({
     baseURL: 'https://api.github.com',
     headers: {
-      'Authorization': `Bearer ${context.secrets.GITHUB_API_TOKEN}`
+      'Authorization': `Bearer ${ctx.secrets.GITHUB_API_TOKEN}`
     }
   });
 
   github.post('graphql', { query }).then((response) => {
-    callback(null, response.data);
+    cb(null, response.data);
   });
 };
