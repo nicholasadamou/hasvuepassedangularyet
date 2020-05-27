@@ -5,9 +5,6 @@
 ![preview](preview.png)
 
 ![license](https://img.shields.io/apm/l/vim-mode.svg)
-[![DevDependencies](https://img.shields.io/david/dev/nicholasadamou/hasvuepassedangularyet.svg?style=flat-square)](https://david-dm.org/nicholasadamou/hasvuepassedangularyet#info=devDependencies)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nicholasadamou/hasvuepassedangularyet)](https://dependabot.com)
-[![Known Vulnerabilities](https://snyk.io/test/github/nicholasadamou/hasvuepassedangularyet/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nicholasadamou/hasvuepassedangularyet?targetFile=package.json)
 [![Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/NicholasAdamou)
 
 ## What is "Has Vue passed Angular yet"?
