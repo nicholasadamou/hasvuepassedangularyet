@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "surge": "^0.21.3",
+    "surge": "^0.21.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
