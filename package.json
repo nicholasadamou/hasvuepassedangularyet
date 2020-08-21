@@ -15,13 +15,13 @@
   "dependencies": {
     "axios": "^0.19.2",
     "surge": "^0.21.6",
-    "vue": "^2.6.11"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.4",
     "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-service": "^4.5.4",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
