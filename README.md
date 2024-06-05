@@ -1,17 +1,12 @@
-# Has Vue passed Angular yet? [![Build Status](https://travis-ci.org/nicholasadamou/hasvuepassedangularyet.svg?branch=master)](https://travis-ci.org/nicholasadamou/hasvuepassedangularyet)
+# Has Vue passed Angular yet?
 
 > Just a fun little site to compare GitHub stars of Vue and Angular
 
 ![preview](preview.png)
 
-![license](https://img.shields.io/apm/l/vim-mode.svg)
-[![Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/NicholasAdamou)
-
 ## What is "Has Vue passed Angular yet"?
 
 A simple UI that interacts with the GitHub API to check whether Vue has passed Angular in star-gazers.
-
-⚠️ To access the demo of 'Has Vue passed Angular yet?' visit this link: ['Has Vue passed Angular yet?' demo](https://hasvuepassedangularyet.surge.sh/).
 
 ## Setting up [WebTasks](https://webtask.io) (Required)
 
